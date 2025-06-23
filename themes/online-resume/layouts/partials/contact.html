@@ -1,17 +1,6 @@
 {{- $contact := .data.contact }}
 {{ if $contact }}
 <div class="contact" {{ if ne .data.basic.avatar.show true }}style="justify-content: center;"{{ end }}>
-  {{- if $contact.location }}
-  {{- $text := $contact.location }}
-  <div class="contact-item" title="Location">
-    <i class="fa-solid fa-location-dot"></i>
-    {{- if eq (slicestr $text 0 1) "[" }}
-    {{ $text | markdownify | safeHTML }}
-    {{- else }}
-    <span>{{ $text }}</span>
-    {{- end }}
-  </div>
-  {{- end }}
 
   {{- if $contact.email }}
   {{- $text := $contact.email }}
@@ -43,11 +32,22 @@
   {{- if $contact.gender }}
   {{- $text := $contact.gender }}
   <div class="contact-item" title="Gender">
-    <i class="fa-solid fa-venus-mars"></i>
+    <i class="fa-solid fa-mars"></i>
     <span>{{ $text }}</span>
   </div>
   {{- end }}
 
+  {{- if $contact.location }}
+  {{- $text := $contact.location }}
+  <div class="contact-item" title="Location">
+    <i class="fa-solid fa-location-dot"></i>
+    {{- if eq (slicestr $text 0 1) "[" }}
+    {{ $text | markdownify | safeHTML }}
+    {{- else }}
+    <span>{{ $text }}</span>
+    {{- end }}
+  </div>
+  {{- end }}
   {{- if $contact.birthday }}
   {{- $text := $contact.birthday }}
   <div class="contact-item" title="Birthday">
