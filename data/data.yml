@@ -104,7 +104,12 @@ evaluation:
   order: 1
   title: Self-evaluation
   description: |
-    - **18** years experience 
+    - Result oriented professional with **18** years experience in Tetsing, Quality Assurance, Automtion and TestOps
+    - Expertise in **Equity Derivatives**, with a deep understanding of pre-trade, post-trade, risk, and data areas
+    - Strong experience in **automation architecture and implementation** against various applications and technology
+    - Proven track record of **leading and managing QA teams**, extended to manage global QA team
+    - Strong experience in **Python** and **Java** programming languages, with a focus on test automation and development
+    - Passsion and hands on with new technologies, with a strong interest on **AI** / **TestOps**
 
 profile:
   show: false
@@ -122,15 +127,19 @@ experience:
   description: |
 
   items:
-    - company: Citi 
+    - company: Citigroup Secvices and Technology (China) Ltd.(CSTC)
       link: 
       tags: Full-time
       date: 2012.12 - Present
-      role: VP, QA Manager
+      role: VP, QA Manager, Global QA Head of Equity Derivatives
       location: Shanghai
       description: |
-        + First
-        + Second
+        + Build up QA Team from scratch, and grow it to **30+** members, and take responsibility of **global** QA team
+        + Take ownership of **Equity Derivatives** QA testing, including **PreTrade**, **PostTrade**, **Risk**, and **Data** areas
+        + Collaborate with cross-functional teams to ensure high-quality software delivery for comprehensive projects
+        + Drive and involve the **automation strategy and implementation**, evoluting the automation architecture on different projects
+        + Streamline test process, monitor all test events around quality, measure and improve the quality of deliverables 
+        + Foster a culture of quality and excellence within the QA team, shift left and right to rethinking the quality
 
     - company: Autodesk
       link:
@@ -139,34 +148,68 @@ experience:
       role: QA Engineer
       location: Shanghai
       description: |
-        + First
-        + Second
+        + Work as QA engineer in Autodesk Invendor design software, take ownership of Modeling part 
+        + Invoved UI automation framework setup and implementation based on TestComplete and VBS
+        + Developed and maintained test cases, test plans, and test scripts for functional, regression, and performance testing
+        + Collaborated with development teams to identify and resolve defects, ensuring high-quality software delivery
 
 project:
   show: true
   order: 3
-  title: Projects
+  title: Key Focus and Deliveries
   description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
   items:
-    - name: Personal project
+    - name: Equity Derivatives QA Transformation
       link: '#'
-      tags:
-      date: 2015 - 2017
+      tags: architector
+      date: 2023 - Present
       description: |
-        Personal project description...
-        + First
-        + Second
+        Along with the keep growing business and small size of QA team, QA team need to keep evolving on Quality and Efficiency to meet the business needs, and the transformation is a must.
+        + Build up QA strategy and roadmap for the transformation
+        + Build cross-functional domain knowledge, to ensure the QA team can cover the business needs
+        + Focus on the **automation architecture**, to ensure automation as service can be used by all teams
+        + Monitor the quality of deliverables, and provide metrics to measure the quality
+        + Standarlize the QA process, include Shift Left and Right in the whole lifecycle
+        
 
-    - name: OSS project
+    - name: QA Automation architecture and implementation
       link:
-      tags: committer
+      tags: architector, committer
       date:
       description: |
-        OSS project description...
-        + First
-        + Second
+        Automation is the key part to keep improving team's efficiency, heavily involved on varoopus automation architecture discussion and implementation
+        + Build up the standard of automation as a service for all applcations and services 
+        + Automation can be run by schedule, Ad-hoc trigger, and automatically triggered by CI/CD pipeline
+        + Build up low-coding API automation automation to align the high volume of microservices and frequent changes
+        + Build cross services/applications automation to 
+        + Build up sanity automation from UI level to ensure user facing key workflows are covered 
+        + Build up peformance atomation for performance sensitive areas, such as trade booking, pre-booing contro, pricing, etc.
+        + Improve the Diff(Recon) based automation solution to cover the change sensitive areas (Modeling, Regulatory, etc.)
 
+
+    - name: Mondo (QA Proecess streamline and monitoring) 
+      link:
+      tags: founder
+      date: 2020 - Present
+      description: |
+        "If You Can’t Measure It, You Can’t Improve It", **Mondo** is an internal QA platform based on the philosophy, group all QA qualities and events data in same place, metrics, imporve and autome action
+        + Build up the platform from scratch, and become popular in Equity Derivatives QA team
+        + Group Releases / Automation / Environments / Test Cases / Defects / Metrics / QA Action in one place
+        + provide Dashboard , API, Data can be used by team and other tools 
+        + reduce the manual touch point and schedule the events 
+
+    - name: Equity Derivatives Key Project Deliver 
+      link:
+      tags: committer
+      date: 2021 - Present
+      description: |
+        Equity Derivatives
+        + IBOR fallback project, a key project to ensure the business can smoothly transition from IBOR to Risk Free Rate (RFR)
+        + ELITE, build up new Equity Swap trading platform and onboard all new booking to the new platform
+        + Parametric OIS: Stadarlize the model based swap schedule logic cross various booking / post-trade systems
+        + Unity Onboaring: Implement unified Trade and Position idenfier on Equity Derivatives applications
+        + Secure Retirement: Retirement Old Instrument System for Equity Derivatives applications
+        + Regulatory Rewrite: MIFID II, EMIR, SFTR, etc. to ensure the business can comply with the regulations
 
 skill:
   show: true
@@ -187,13 +230,17 @@ skill:
         - Fastapi
         - Flask
         - Celery
-        - Http4k
+        - Spring
+        - HTTP4K
     - name: Databases
       item:
         - PostgreSQL
         - Sybase
+        - Oracle
+        - Redis
         - MongoDB
         - Ignite
+        - S3
     - name: Observability
       item:
         - Grafana
@@ -202,16 +249,20 @@ skill:
         - Metabase
     - name: DevOps
       item:
+        - Docker
         - ECS
         - Jenkins
-        - Terraform
+        - CI/CD
     - name: Automation Frameworks
       item:
         - Pytest
         - Robot Framework
         - TestNG
+        - Rest Assured
         - Playwright
         - Selenium
+        - UFT
+        - Locust 
         
 
 education:
@@ -223,7 +274,7 @@ education:
     - institution: Nanjing University of Aeronautics and Astronautics
       link: 
       date: 2003 - 2007
-      major: Industry Design
+      major: 
       degree: Bechelor
       description: |
 

@@ -8,10 +8,13 @@
 
   <div class="section-content">
     {{- if $evaluation.description }}
+    <br/>
     <div class="description markdown">
       {{ $evaluation.description | markdownify | safeHTML }}
     </div>
     {{- end }}
   </div>
+  
 </section>
+<br/>
 {{- end }}

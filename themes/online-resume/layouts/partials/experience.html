@@ -46,12 +46,13 @@
           </div>
           {{- end }}
         </div>
-
+        <br/>
         {{- if $item.description }}
         <div class="description markdown">
           {{ $item.description | markdownify | safeHTML }}
         </div>
         {{- end }}
+        <br/>
         {{- end }}
 
       </div>

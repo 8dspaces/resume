@@ -187,7 +187,8 @@ skill:
         - Fastapi
         - Flask
         - Celery
-        - Http4k
+        - Spring
+        - HTTP4K
     - name: Databases
       item:
         - PostgreSQL
